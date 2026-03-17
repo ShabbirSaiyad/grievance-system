@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom tweaks */
+body {
+  @apply bg-slate-950 text-slate-50;
+}
+
+.glass-card {
+  @apply bg-slate-900/70 border border-slate-800 rounded-2xl shadow-xl backdrop-blur-lg;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-brand-500 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-brand-500/40 transition hover:bg-brand-600 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full px-3 py-0.5 text-xs font-medium;
+}
+
+.badge-pending {
+  @apply bg-red-500/10 text-red-400 border border-red-500/40;
+}
+
+.badge-inprogress {
+  @apply bg-yellow-500/10 text-yellow-300 border border-yellow-500/40;
+}
+
+.badge-resolved {
+  @apply bg-emerald-500/10 text-emerald-300 border border-emerald-500/40;
+}
+
+.badge-priority-high {
+  @apply bg-red-500/10 text-red-300 border border-red-500/40;
+}
+
+.badge-priority-medium {
+  @apply bg-yellow-500/10 text-yellow-200 border border-yellow-500/40;
+}
+
+.badge-priority-low {
+  @apply bg-sky-500/10 text-sky-300 border border-sky-500/40;
+}
+
