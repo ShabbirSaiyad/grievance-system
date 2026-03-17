@@ -36,7 +36,7 @@ Create a `.env` file in `backend`:
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/grievance_system
 OPENAI_API_KEY=your_optional_openai_key_here
-CLIENT_URL=http://localhost:3000
+CLIENT_URL=http://localhost:5000
 ```
 
 Run backend:
